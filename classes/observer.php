@@ -36,8 +36,8 @@ class observer
 
         // Envía una solicitud HTTP POST a React.
         // Develop: http://localhost:5173
-        // Prod: http://161.35.53.140:5173
-        $url = 'http://localhost:5173';
+        // Prod: https://proctorguard.yvagacore.com
+        $url = 'https://proctorguard.yvagacore.com';
         $payload = json_encode([
             'attemptid' => $attemptid,
             'userid' => $userid,
